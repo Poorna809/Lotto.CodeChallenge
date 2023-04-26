@@ -1,0 +1,25 @@
+﻿@model LottoWeb.Models.HomeViewModel
+
+<div class="row">
+    <div class="medium-12 columns">
+        <h2>Open Lottery draws</h2>
+        @foreach (var draw in Model.OpenDraws)
+        {
+            <div class="row">
+                <div class="medium-12 columns">
+                    <div class="lottoContainer">
+                        <h4>@draw.DrawDisplayName</h4>
+                        <p>
+                            <img src="@draw.DrawLogoUrl" />
+                        </p>
+                        <p><strong>Draw date:</strong> @draw.DrawDate.ToString("dd/MM/yyyy")</p>
+                        <p><strong>Draw number:</strong> @draw.DrawNumber</p>
+                        <p><strong>Jackpot value:</strong> @draw.Div1Amount.ToString()</p>
+                    </div> 
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+

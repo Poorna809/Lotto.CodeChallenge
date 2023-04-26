@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projects", "Projects", "{E8EBDBA4-BC7B-45D0-83FF-5F2D648E3948}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LottoWeb", "LottoWeb\LottoWeb.csproj", "{BC5150ED-AA05-4B28-94AF-F78FA0DD59C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LottoWeb.Tests", "Projects\LottoWeb.Tests\LottoWeb.Tests.csproj", "{4F5E49C3-6D1F-416A-A603-82DB93C1944C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC5150ED-AA05-4B28-94AF-F78FA0DD59C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC5150ED-AA05-4B28-94AF-F78FA0DD59C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC5150ED-AA05-4B28-94AF-F78FA0DD59C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC5150ED-AA05-4B28-94AF-F78FA0DD59C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F5E49C3-6D1F-416A-A603-82DB93C1944C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F5E49C3-6D1F-416A-A603-82DB93C1944C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F5E49C3-6D1F-416A-A603-82DB93C1944C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F5E49C3-6D1F-416A-A603-82DB93C1944C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BC5150ED-AA05-4B28-94AF-F78FA0DD59C8} = {E8EBDBA4-BC7B-45D0-83FF-5F2D648E3948}
+		{4F5E49C3-6D1F-416A-A603-82DB93C1944C} = {E8EBDBA4-BC7B-45D0-83FF-5F2D648E3948}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E1A3B3A4-E146-4E72-B39E-44AFDADDAE08}
+	EndGlobalSection
+EndGlobal
