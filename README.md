@@ -17,6 +17,6 @@ Verify unit test cases
 
 1. Open the solution in visual studio. 
 
-2. Set the Lotto.Test as the startup project. 
+2. Go to Test > Windows > Test Explorer
 
-3. Run the Application on IIS
+3. Run all the tests
