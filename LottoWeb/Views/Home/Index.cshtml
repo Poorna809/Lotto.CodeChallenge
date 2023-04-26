@@ -2,12 +2,12 @@
 
 <div class="row">
     <div class="medium-12 columns">
-        <h2>Open Lottery draws</h2>
+        <h2>Open Lottery draws</h2>br />
         @foreach (var draw in Model.OpenDraws)
         {
             <div class="row">
                 <div class="medium-12 columns">
-                    <div class="lottoContainer">
+                    <div class="">
                         <h4>@draw.DrawDisplayName</h4>
                         <p>
                             <img src="@draw.DrawLogoUrl" />
@@ -16,6 +16,7 @@
                         <p><strong>Draw number:</strong> @draw.DrawNumber</p>
                         <p><strong>Jackpot value:</strong> @draw.Div1Amount.ToString()</p>
                     </div> 
+                    <hr />
                 </div>
             </div>
         }
